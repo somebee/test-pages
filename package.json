@@ -1,0 +1,10 @@
+{
+    "name": "imba-base-template",
+    "scripts": {
+        "start": "imba serve app/index.html",
+        "build": "imba build -o docs --client-only --baseurl=/imba-github-pages-test/ app/index.html"
+    },
+    "dependencies": {
+        "imba": "^2.0.0-alpha.145"
+    }
+}
