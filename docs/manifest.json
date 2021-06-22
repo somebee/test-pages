@@ -1,15 +1,15 @@
 {"$$0$$":{
   "exports": [],
   "entryPoint": "serve.imba",
-  "bytes": 52842,
-  "source": "$$7$$",
+  "bytes": 22063,
+  "source": "$$6$$",
   "_": "output",
   "path": "serve.js",
   "type": "js",
   "dependencies": [
-    "$$8$$"
+    "$$7$$"
   ],
-  "hash": "J7EAG1VL",
+  "hash": "VEZXBPZY",
   "originalPath": "serve.__dist__.js"
 },
 "$$1$$":{
@@ -19,18 +19,18 @@
   ],
   "entryPoint": "app/index.html",
   "bytes": 675,
-  "source": "$$9$$",
+  "source": "$$8$$",
   "_": "output",
   "path": "index.html",
   "public": true,
   "type": "html",
   "dependencies": [
-    "$$10$$",
-    "$$11$$"
+    "$$9$$",
+    "$$10$$"
   ],
-  "hash": "MKGHQW2K",
+  "hash": "OROCGABT",
   "originalPath": "app/index.__dist__.html",
-  "url": "/imba-github-pages-test/app/index.html"
+  "url": "/test-pages/app/index.html"
 },
 "$$2$$":{
   "exports": [],
@@ -38,124 +38,101 @@
   "_": "output",
   "path": "img/logo-4MXEBDEU.svg",
   "public": true,
-  "url": "/imba-github-pages-test/img/logo-4MXEBDEU.svg",
+  "url": "/test-pages/img/logo-4MXEBDEU.svg",
   "type": "svg",
   "dependencies": [],
   "hash": "4MXEBDEU",
   "ttl": 31536000,
-  "hashed": true,
   "originalPath": "logo-4MXEBDEU.svg"
 },
 "$$3$$":{
   "exports": [],
-  "bytes": 55385,
-  "source": "$$12$$",
-  "_": "output",
-  "path": "js/app/index-ZK54AFDV.js.map",
-  "public": true,
-  "url": "/imba-github-pages-test/js/app/index-ZK54AFDV.js.map",
-  "type": "map",
-  "dependencies": [],
-  "hash": "ZK54AFDV"
-},
-"$$4$$":{
-  "exports": [],
   "entryPoint": "app/index.imba",
-  "bytes": 22881,
-  "map": "$$3$$",
-  "source": "$$12$$",
-  "css": "$$5$$",
+  "bytes": 38416,
+  "source": "$$11$$",
+  "css": "$$4$$",
   "_": "output",
-  "path": "js/app/index-ZK54AFDV.js",
+  "path": "js/app/index.js",
   "public": true,
-  "url": "/imba-github-pages-test/js/app/index-ZK54AFDV.js",
+  "url": "/test-pages/js/app/index.js",
   "type": "js",
   "dependencies": [],
-  "hash": "ZK54AFDV",
-  "hashed": true,
-  "originalPath": "app/index.__dist__.js",
-  "ttl": 31536000
+  "hash": "HYSV1I5Q",
+  "originalPath": "app/index.__dist__.js"
 },
-"$$5$$":{
-  "bytes": 275,
-  "source": "$$12$$",
+"$$4$$":{
+  "bytes": 322,
+  "source": "$$11$$",
   "_": "output",
-  "path": "css/app/index-ZVNONSFH.css",
+  "path": "css/app/index.css",
   "public": true,
-  "url": "/imba-github-pages-test/css/app/index-ZVNONSFH.css",
+  "url": "/test-pages/css/app/index.css",
   "type": "css",
   "dependencies": [],
-  "hash": "ZVNONSFH",
-  "hashed": true,
-  "originalPath": "app/index.__dist__.css",
-  "ttl": 31536000
+  "hash": "5HW7DCC5",
+  "originalPath": "app/index.__dist__.css"
 },
-"$$6$$":{
+"$$5$$":{
   "_": "output",
   "type": "css",
   "public": true,
-  "path": "css/all-VC5IOLUB.css",
-  "asset": "$$6$$",
-  "hash": "VC5IOLUB",
-  "hashed": true,
+  "path": "css/all.css",
+  "asset": "$$5$$",
+  "hash": "GTVXUPAS",
   "originalPath": "all.__dist__.css",
-  "ttl": 31536000,
-  "url": "/imba-github-pages-test/css/all-VC5IOLUB.css"
+  "url": "/test-pages/css/all.css"
 },
-"$$7$$":{
+"$$6$$":{
   "bytes": 1734,
   "_": "input",
   "path": "serve.imba",
   "js": "$$0$$"
 },
-"$$8$$":{
+"$$7$$":{
   "bytes": 82,
   "_": "input",
   "path": "entry:app/index.html",
   "asset": "$$1$$"
 },
-"$$9$$":{
+"$$8$$":{
   "bytes": 563,
   "_": "input",
   "path": "app/index.html",
   "js": "$$1$$"
 },
-"$$10$$":{
+"$$9$$":{
   "bytes": 10,
   "_": "input",
   "path": "entry:__styles__"
 },
-"$$11$$":{
+"$$10$$":{
   "bytes": 27,
   "_": "input",
   "path": "entry:app/index.imba?as=web",
-  "asset": "$$4$$"
+  "asset": "$$3$$"
 },
-"$$12$$":{
+"$$11$$":{
   "bytes": 2376,
   "_": "input",
   "path": "app/index.imba",
-  "js": "$$4$$",
-  "css": "$$5$$",
-  "map": "$$3$$"
+  "js": "$$3$$",
+  "css": "$$4$$"
 },
 
   "outputs": {
     "serve.js": "$$0$$",
     "index.html": "$$1$$",
     "img/logo-4MXEBDEU.svg": "$$2$$",
-    "js/app/index-ZK54AFDV.js.map": "$$3$$",
-    "js/app/index-ZK54AFDV.js": "$$4$$",
-    "css/app/index-ZVNONSFH.css": "$$5$$",
-    "css/all-VC5IOLUB.css": "$$6$$"
+    "js/app/index.js": "$$3$$",
+    "css/app/index.css": "$$4$$",
+    "css/all.css": "$$5$$"
   },
   "urls": {
-    "/imba-github-pages-test/app/index.html": "$$1$$",
-    "/imba-github-pages-test/img/logo-4MXEBDEU.svg": "$$2$$",
-    "/imba-github-pages-test/js/app/index-ZK54AFDV.js.map": "$$3$$",
-    "/imba-github-pages-test/js/app/index-ZK54AFDV.js": "$$4$$",
-    "/imba-github-pages-test/css/app/index-ZVNONSFH.css": "$$5$$",
-    "/imba-github-pages-test/css/all-VC5IOLUB.css": "$$6$$"
+    "/test-pages/app/index.html": "$$1$$",
+    "/test-pages/img/logo-4MXEBDEU.svg": "$$2$$",
+    "/test-pages/js/app/index.js": "$$3$$",
+    "/test-pages/css/app/index.css": "$$4$$",
+    "/test-pages/css/all.css": "$$5$$"
   },
   "mappings": {
     "serve.imba": {
@@ -164,11 +141,11 @@
     },
     "app/index.imba": {
       "src": "app/index.imba",
-      "file": "js/app/index-ZK54AFDV.js",
-      "url": "/imba-github-pages-test/js/app/index-ZK54AFDV.js"
+      "file": "js/app/index.js",
+      "url": "/test-pages/js/app/index.js"
     }
   },
-  "hash": "SXBU0LNX",
+  "hash": "GW3POZN1",
   "srcdir": "..",
   "outdir": ".",
   "path": "manifest.json",
@@ -179,8 +156,7 @@
     "$$2$$",
     "$$3$$",
     "$$4$$",
-    "$$5$$",
-    "$$6$$"
+    "$$5$$"
   ],
-  "css": "$$6$$"
+  "css": "$$5$$"
 }
